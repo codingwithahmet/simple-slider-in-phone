@@ -1,0 +1,112 @@
+.phone {
+  width: 225px;
+  height: 400px;
+  background-color: transparent;
+  background-size: 225px;
+  margin: auto;
+  margin-top: 50px;
+  border-left: 8px solid white;
+  border-right: 8px solid white;
+  border-top: 40px solid white;
+  border-bottom: 40px solid white;
+  border-radius: 25px;
+  box-shadow: rgb(0, 255, 0) 0px 0px 300px -40px;
+}
+.fix {
+  overflow: visible;
+  width: 40px;
+  margin-top: -20px;
+  margin-left: 90px;
+}
+.fix2 {
+  overflow: visible;
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  margin-top: -12px;
+  border-radius: 100%;
+  margin-left: 70px;
+  border: 0px;
+}
+.fix3 {
+  overflow: visible;
+  width: 25px;
+  height: 25px;
+  border: 2px solid lightgrey;
+  background-image: linear-gradient(rgb(169, 166, 166), white);
+  border-radius: 100%;
+  margin-top: 420px;
+  margin-left: 44%;
+}
+.fix3:active {
+  background-image: linear-gradient(white, rgb(169, 166, 166));
+  background-image: rgb(169, 166, 166);
+}
+
+.fix4 {
+  overflow: visible;
+  width: 40px;
+  height: 40px;
+  margin-top: -250px;
+  margin-left: -55px;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.fix4:active {
+  background-color: rgb(88, 88, 88);
+  transition: 0.2s;
+}
+.fix5 {
+  overflow: visible;
+  width: 40px;
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 240px;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.fix5:active {
+  background-color: rgb(88, 88, 88);
+  transition: 0.8s;
+}
+.backgroundimg {
+  width: 225px;
+  height: 400px;
+  background-color: blue;
+  margin-top: -222px;
+  z-index: -1;
+  background-image: url("/src/img/c6f4343f08e8653b9e3a49b9cda7c8db.jpg");
+  position: relative;
+  overflow: hidden;
+}
+.backgroundimg2 {
+  width: 225px;
+  height: 400px;
+  background-color: blue;
+  margin-top: -432px;
+  z-index: -1;
+  background-image: url("/src/img/i.webp");
+  position: relative;
+  overflow: hidden;
+  background-size: 225px;
+}
+.backgroundimg3 {
+  width: 225px;
+  height: 400px;
+  background-color: blue;
+  margin-top: -432px;
+  z-index: -1;
+  background-image: url("/src/img/tumblr_o9pvvfl3fu1ujw22to6_250_by_milkkitty3_ddf7a3t-fullview.jpg");
+  position: relative;
+  overflow: hidden;
+}
+body {
+  background: black;
+}
